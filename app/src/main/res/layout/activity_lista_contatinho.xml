@@ -23,7 +23,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.97"
-        app:srcCompat="@android:drawable/ic_menu_save" />
+        app:srcCompat="@android:drawable/ic_menu_save"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -37,10 +39,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         android:layout_marginTop="2dp"
         android:layout_marginRight="2dp"
-        android:layout_marginLeft="2dp" />
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp" />
 
     <EditText
-        android:id="@+id/contatoFormNome"
+        android:id="@+id/contatoFormTelefone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -56,10 +60,10 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contatoFormTelefone" />
+        app:layout_constraintTop_toBottomOf="@+id/contatoFormNome" />
 
     <EditText
-        android:id="@+id/contatoFormTelefone"
+        android:id="@+id/contatoFormNome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
@@ -95,12 +99,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contatoFormNome" />
+        app:layout_constraintTop_toBottomOf="@+id/contatoFormTelefone" />
 
     <TextView
         android:id="@+id/contatoFormId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
 </android.support.constraint.ConstraintLayout>

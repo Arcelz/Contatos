@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BancoSQL.iml" filepath="$PROJECT_DIR$/BancoSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContatosRetrofit.iml" filepath="$PROJECT_DIR$/ContatosRetrofit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
